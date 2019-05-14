@@ -12,6 +12,10 @@ const routes: Routes = [
     path: 'home',
     component: HomeComponent,
   },
+  {
+    path: 'plans',
+    loadChildren: '../app/modules/plans/plans.module#PlansModule'
+  },
 ];
 
 @NgModule({

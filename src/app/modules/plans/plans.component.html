@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="row flex-items-xs-middle flex-items-xs-center">
+    <div class="col-xs-12 col-lg-4 col-md-12" *ngFor="let plan of plans">
+      <div class="card text-xs-center text-lg-center text-md-center">
+        <div class="card-header">
+          <h3 class="display-2"><span class="currency">R$</span>{{plan.valor}}<span class="period">/mês</span></h3>
+        </div>
+        <div class="card-block">
+          <h4 class="card-title">
+              {{plan.franquia}}
+          </h4>
+          <a [routerLink]="[ '/userform']" class="btn btn-gradient mt-2">Adquirir Plano</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
