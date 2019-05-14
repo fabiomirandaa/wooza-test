@@ -1,17 +1,15 @@
 <div class="container">
-  <div class="row flex-items-xs-middle flex-items-xs-center">
-    <div class="col-xs-12 col-lg-4 col-md-12" *ngFor="let plan of plans">
-      <div class="card text-xs-center text-lg-center text-md-center">
-        <div class="card-header">
-          <h3 class="display-2"><span class="currency">R$</span>{{plan.valor}}<span class="period">/mês</span></h3>
-        </div>
-        <div class="card-block">
-          <h4 class="card-title">
-              {{plan.franquia}}
-          </h4>
-          <a [routerLink]="[ '/userform']" class="btn btn-gradient mt-2">Adquirir Plano</a>
-        </div>
-      </div>
+  <section class="py-5">
+    <div class="container">
+      <h1 class="font-weight-light">Selecione um de nossos planos</h1>
+      <p class="lead">Escolha aquele que melhor te atende e que cabe no seu bolso, afinal o melhor é não ficar desconectado.</p>
     </div>
+  </section>
+
+  <div class="row flex-items-xs-middle flex-items-xs-center d-flex justify-content-center">
+    <app-price-plan *ngFor="let plan of plans" [value]="plan.valor" [franchise]="plan.franquia"
+      [textButton]="'Adquirir Plano'" [url]="'/userform'">
+    </app-price-plan>
+
   </div>
 </div>
