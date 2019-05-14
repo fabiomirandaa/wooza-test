@@ -16,6 +16,10 @@ const routes: Routes = [
     path: 'plans',
     loadChildren: '../app/modules/plans/plans.module#PlansModule'
   },
+  {
+    path: 'userform',
+    loadChildren: '../app/modules/form-plan/form-plan.module#FormPlanModule'
+  }
 ];
 
 @NgModule({
