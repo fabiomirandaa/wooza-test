@@ -29,7 +29,6 @@ export class FormPlanComponent implements OnInit {
   send() {
     if (!this.form.valid) {
       this.dirtyAllInputs();
-      console.log(this.form);
     } else {
       this.success = true;
     }

@@ -19,7 +19,6 @@ export class HomeComponent implements OnInit {
       .pipe(take(1))
       .subscribe((item: any) => {
         this.platforms = item.plataformas;
-        console.log(this.platforms);
       });
   }
 

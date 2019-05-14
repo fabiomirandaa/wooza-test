@@ -1,27 +1,30 @@
 # WoozaTest
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
+Esse projeto é a solução do teste para a vaga de Desenvolvedor Frontend da usa. Estrutura gerada com o [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
 
 ## Development server
+Certifique-se que você tenha as seguintes tecnologias instaladas:
+- Node.js (v8+)
+- Angular 7 
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Para instalar o Angular CLI que será responsável por rodar o projeto, use: 
+```
+npm install -g @angular/cli
+```
+Rode `ng serve` para iniciar o servidor. Então, Navegue para `http://localhost:4200/`.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Rode `ng build` para buildar o projeto se for do seu interesse. Os artifacts ficarão no diretório `dist/`. Use a flag `--prod` se for um build para produção.
 
-## Running unit tests
+## Unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Rode `ng test` para executar testes de unidade via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Rode `ng e2e` para executar testes end-to-end via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Mais ajuda com o Angular CLI
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Para mais ajuda com o Angular CLI use `ng help` ou acesse o [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
