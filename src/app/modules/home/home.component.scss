@@ -1,0 +1,124 @@
+$primary-color: #57e2b2;
+
+header.masthead {
+  position: relative;
+  height: 50vh;
+  background-color: #343a40;
+  background: url('https://www.chainimage.com/images/tags-wallpapers-high-definition-hd-wallpapers-4k-resolution.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: .3
+}
+
+@media (min-width:768px) {
+  header.masthead {
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+  }
+
+  header.masthead h3 {
+    font-size: 4rem;
+  }
+
+  .my-text-heading {
+    font-size: 2rem;
+  }
+}
+
+h3.my-heading {
+  color: #fff;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin: 0;
+}
+
+.my-text-heading {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin: 0;
+}
+
+.my-text-final {
+  color: #fff;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  margin-top: 60px;
+}
+
+.bs-calltoaction {
+  position: relative;
+  width: auto;
+  padding: 15px 25px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.bs-calltoaction>.row {
+  display: table;
+  width: calc(100% + 30px);
+}
+
+.bs-calltoaction>.row>[class^="col-"],
+.bs-calltoaction>.row>[class*=" col-"] {
+  float: none;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.cta-contents {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cta-title {
+  margin: 0 auto 15px;
+  padding: 0;
+}
+
+.cta-desc {
+  padding: 0;
+}
+
+.cta-desc p:last-child {
+  margin-bottom: 0;
+}
+
+.cta-button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.bs-calltoaction.bs-calltoaction-primary {
+  color: #000;
+  background-color: #f5f5f5;
+  border-color: #fafafa;
+}
+
+.lead {
+  font-size: 33px;
+  margin-bottom: 0px;
+}
